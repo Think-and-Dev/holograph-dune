@@ -1,4 +1,4 @@
-Select sum(total_transactions)as total_transactions from (
+SELECT SUM(total_transactions) AS total_transactions FROM 
 WITH ethereum_holograph_protocol_transactions AS (
   SELECT
     tx_hash AS tx,
